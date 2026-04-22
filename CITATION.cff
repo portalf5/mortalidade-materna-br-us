@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows."
+type: article
+
+title: "Opposite Trajectories: Maternal Mortality Trends in Brazil and the United States, 2000–2023"
+
+authors:
+  - given-names: Wederson
+    family-names: Marinho
+    orcid: "https://orcid.org/0009-0004-6401-3465"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19697181"
+
+date-released: 2026-04-22
+year: 2026
+
+publisher: "Zenodo"
+
+repository-code: "https://github.com/portalf5/mortalidade-materna-br-us"
+url: "https://doi.org/10.5281/zenodo.19697181"
+
+abstract: >
+  Comparative analysis of WHO maternal mortality data (2000–2023) for Brazil and the United States,
+  revealing stable trends in Brazil and a 35% increase in the U.S., despite significantly higher
+  healthcare spending.
+
+keywords:
+  - maternal mortality
+  - Brazil
+  - United States
+  - public health
+  - epidemiology
+  - health policy
+  - WHO
+  - MMEIG
+
+license: "MIT"
+
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Wederson
+      family-names: Marinho
+  title: "Opposite Trajectories: Maternal Mortality Trends in Brazil and the United States, 2000–2023"
+  journal: "Portal F5"
+  year: 2026
+  doi: "10.5281/zenodo.19697181"
