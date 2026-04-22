@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="html-root">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="meta-title">Brasil manteve mortalidade materna estável por 23 anos enquanto Estados Unidos aumentaram 35% · Portal F5</title>
+<meta name="description" content="Dados oficiais OMS (2000–2023): Brasil 67,96→67,0/100k (estável, −1,4%). EUA 12,59→17,0/100k (+35%). Gasto 20x maior por habitante. Metodologia auditável, código aberto.">
+<meta name="keywords" content="mortalidade materna, maternal mortality, OMS, WHO, Brasil, Estados Unidos, saúde pública, SUS, MMR, MMEIG, jornalismo de dados, data journalism, health policy">
+<meta name="author" content="Wederson Marinho">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://portalf5.github.io/mortalidade-materna-br-us/">
+<link rel="alternate" hreflang="pt-BR" href="https://portalf5.github.io/mortalidade-materna-br-us/">
+<link rel="alternate" hreflang="en" href="https://portalf5.github.io/mortalidade-materna-br-us/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://portalf5.github.io/mortalidade-materna-br-us/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Portal F5">
+<meta property="og:title" content="Brasil manteve mortalidade materna estável por 23 anos enquanto EUA aumentaram 35%">
+<meta property="og:description" content="Dados oficiais OMS (2000–2023): Brasil estável em 67,96→67,0/100k. EUA +35% (12,59→17,0) com gasto 20x maior.">
+<meta property="og:url" content="https://portalf5.github.io/mortalidade-materna-br-us/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="article:published_time" content="2026-04-22T00:00:00-03:00">
+<meta property="article:author" content="https://www.linkedin.com/in/marinhobusiness/">
+<meta property="article:tag" content="mortalidade materna">
+<meta property="article:tag" content="maternal mortality">
+<meta property="article:tag" content="WHO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@portalf5">
+<meta name="twitter:creator" content="@marinhobusiness">
+<meta name="twitter:title" content="Brasil manteve mortalidade materna estável por 23 anos enquanto EUA aumentaram 35%">
+<meta name="twitter:description" content="Dados OMS (2000–2023): Brasil 67,96→67,0/100k (−1,4%). EUA 12,59→17,0/100k (+35%). Metodologia auditável.">
+<meta name="twitter:label1" content="Autor / Author"><meta name="twitter:data1" content="Wederson Marinho">
+<meta name="twitter:label2" content="Fonte / Source"><meta name="twitter:data2" content="WHO/UNICEF/UNFPA/World Bank MMEIG">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"NewsArticle","@id":"https://portalf5.github.io/mortalidade-materna-br-us/#article","headline":"Brasil manteve mortalidade materna estável por 23 anos enquanto Estados Unidos aumentaram 35%","alternativeHeadline":"Brazil Maintained Stable Maternal Mortality for 23 Years While the United States Increased 35%","description":"Análise de dados oficiais OMS (2000–2023): Brasil 67,96→67,0/100k (variação de 1,4%). EUA 12,59→17,0/100k (aumento de 35%), com gasto 20x maior por habitante. Metodologia MMEIG, dados não interpolados.","url":"https://portalf5.github.io/mortalidade-materna-br-us/","inLanguage":["pt-BR","en"],"datePublished":"2026-04-22T00:00:00-03:00","dateModified":"2026-04-22T00:00:00-03:00","author":{"@type":"Person","name":"Wederson Marinho","jobTitle":"Jornalista e Cientista de Dados","sameAs":["https://orcid.org/0009-0004-6401-3465","https://www.linkedin.com/in/marinhobusiness/","https://ssrn.com/author=6144460"]},"publisher":{"@type":"Organization","name":"Portal F5","url":"https://github.com/portalf5/mortalidade-materna-br-us"},"citation":{"@type":"CreativeWork","name":"Trends in maternal mortality 2000 to 2023","isbn":"978-92-4-010846-2","url":"https://www.who.int/publications/i/item/9789240108462"},"about":[{"@type":"MedicalCondition","name":"Maternal Mortality","code":{"@type":"MedicalCode","codeValue":"O00-O99","codingSystem":"ICD-10"}}],"spatialCoverage":[{"@type":"Country","name":"Brasil","identifier":"BR"},{"@type":"Country","name":"United States","identifier":"US"}],"temporalCoverage":"2000/2023"},{"@type":"SoftwareSourceCode","name":"Pipeline de coleta e análise de mortalidade materna","codeRepository":"https://github.com/portalf5/mortalidade-materna-br-us","programmingLanguage":["Python","JavaScript","HTML"],"license":"https://opensource.org/licenses/MIT","author":{"name":"Wederson Marinho","sameAs":"https://orcid.org/0009-0004-6401-3465"}},{"@type":"Dataset","name":"Mortalidade Materna Brasil vs. EUA (2000–2023)","url":"https://portalf5.github.io/mortalidade-materna-br-us/dados_mmr.json","license":"https://creativecommons.org/licenses/by/4.0/","isBasedOn":{"@type":"CreativeWork","url":"https://www.who.int/publications/i/item/9789240108462"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Portal F5","item":"https://github.com/portalf5/mortalidade-materna-br-us"},{"@type":"ListItem","position":2,"name":"Mortalidade Materna Brasil vs. EUA (2000–2023)","item":"https://portalf5.github.io/mortalidade-materna-br-us/"}]}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a08;--bg2:#0f0f0d;--bg3:#181815;--ink:#e4dfd4;--ink2:#938a7a;--ink3:#4b4640;--azul:#4a7c9e;--azul2:#6b9aba;--vermelho:#9e4a4a;--vermelho2:#ba6b6b;--border:rgba(74,124,158,.14)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Libre Baskerville',Georgia,serif;font-size:18px;line-height:1.78;overflow-x:hidden}
+#loading{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;transition:opacity .7s}
+.ld-mark{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:var(--azul);margin-bottom:2rem;text-transform:uppercase}
+.ld-bar{width:160px;height:1px;background:var(--border)}
+.ld-prog{height:100%;background:var(--azul);width:0;animation:prog 2.4s cubic-bezier(.4,0,.2,1) forwards}
+@keyframes prog{to{width:100%}}
+.lang-toggle{position:fixed;top:1rem;right:1.5rem;z-index:998;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;background:var(--bg3);border:1px solid var(--border);padding:.45rem .9rem;color:var(--azul2);text-decoration:none;cursor:pointer;transition:border-color .15s}
+.lang-toggle:hover{border-color:var(--azul2)}
+.portal-bar{padding:.9rem 6vw;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.portal-nome{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--azul);text-decoration:none}
+.portal-sec{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+header{max-width:860px;margin:0 auto;padding:5rem 6vw 4rem;border-bottom:1px solid var(--border)}
+.rubrica{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--azul);margin-bottom:1.6rem;display:block}
+h1{font-family:'Libre Baskerville',serif;font-size:clamp(2rem,5vw,3.6rem);font-weight:700;line-height:1.1;color:var(--ink);margin-bottom:.8rem;letter-spacing:-.01em}
+.subtitulo{font-family:'Source Sans 3',sans-serif;font-size:clamp(1rem,1.8vw,1.2rem);font-weight:400;color:var(--ink2);max-width:700px;line-height:1.6;margin-bottom:2rem}
+.byline-block{border-top:1px solid var(--border);padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:.6rem 2rem}
+.byline-item{font-family:'Source Sans 3',sans-serif;font-size:13px;color:var(--ink3);line-height:1.5}
+.byline-item strong{color:var(--ink2);font-weight:600;display:block}
+.hero-data{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--border);border-left:1px solid var(--border)}
+.data-cell{padding:2rem 1.8rem;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.data-cell.full{grid-column:1/-1}
+.data-rotulo{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3);margin-bottom:.7rem}
+.data-num{font-family:'Libre Baskerville',serif;font-size:clamp(1.7rem,3.5vw,2.8rem);font-style:italic;line-height:1;margin-bottom:.4rem}
+.data-num.azul{color:var(--azul2)}
+.data-num.vermelho{color:var(--vermelho2)}
+.data-nota{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3)}
+.corpo{max-width:720px;margin:0 auto;padding:4.5rem 6vw}
+.corpo p{font-family:'Libre Baskerville',serif;color:var(--ink2);margin-bottom:1.3rem;font-size:18px;line-height:1.82}
+.pull{border-top:2px solid var(--azul);border-bottom:1px solid var(--border);padding:1.6rem 0 1.4rem;margin:2.5rem 0}
+.pull p{font-family:'Libre Baskerville',serif;font-size:1.15em;font-style:italic;color:var(--ink);margin:0;line-height:1.6}
+.fig{max-width:1100px;margin:0 auto;padding:0 6vw 4.5rem}
+.fig-inner{background:var(--bg2);border:1px solid var(--border);padding:1.6rem}
+.fig-cap{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-bottom:1.4rem}
+.chart-container{width:100%;height:400px;position:relative}
+.eventos-wrap{max-width:1100px;margin:0 auto;padding:0 6vw 4.5rem}
+.ev-intro{font-family:'Source Sans 3',sans-serif;font-size:13px;color:var(--ink3);margin-bottom:1.2rem}
+.ev-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
+.ev-ficha{background:var(--bg2);padding:1.4rem 1.5rem;transition:background .12s}
+.ev-ficha:hover{background:var(--bg3)}
+.ev-quando{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem}
+.ev-quando.brasil{color:var(--azul)}
+.ev-quando.eua{color:var(--vermelho)}
+.ev-quando.ambos{color:var(--ink3)}
+.ev-titulo{font-family:'Source Sans 3',sans-serif;font-size:14px;color:var(--ink2);margin-bottom:.6rem;line-height:1.4}
+.ev-impacto{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3);line-height:1.5}
+.nota-tec{background:var(--bg2);border:1px solid var(--border);padding:1.8rem;font-family:'IBM Plex Mono',monospace;font-size:11px;line-height:1.9;color:var(--ink3);margin-top:1.5rem}
+.nota-tec b{color:var(--azul)}
+.nota-tec a{color:var(--azul);text-decoration:none}
+.aviso{background:rgba(74,124,158,.06);border-left:2px solid var(--azul);padding:1rem 1.4rem;margin:2rem 0;font-family:'Source Sans 3',sans-serif;font-size:14px;color:var(--ink3);line-height:1.6}
+.divider{max-width:720px;margin:0 auto;padding:0 6vw}
+.divider hr{border:none;border-top:1px solid var(--border);margin:0 0 4.5rem}
+.sec-head{max-width:720px;margin:0 auto;padding:0 6vw 1.5rem}
+.sec-head h2{font-family:'Libre Baskerville',serif;font-size:clamp(1.4rem,2.4vw,2rem);font-weight:700;color:var(--ink);line-height:1.2;margin-bottom:.6rem}
+.ante{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--azul);display:block;margin-bottom:.5rem}
+footer{border-top:1px solid var(--border);padding:2.2rem 6vw;display:flex;flex-wrap:wrap;gap:.6rem 3rem;align-items:center}
+.ft-item{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink3);letter-spacing:.05em}
+.ft-item a{color:var(--azul);text-decoration:none}
+.fade{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.fade.on{opacity:1;transform:none}
+@media(max-width:600px){
+  .hero-data{grid-template-columns:1fr}
+  header,.corpo,.sec-head,.divider,.fig,.eventos-wrap{padding-left:5vw;padding-right:5vw}
+  .portal-bar{padding:.8rem 5vw}
+  .lang-toggle{top:.6rem;right:.8rem;font-size:9px;padding:.35rem .7rem}
+}
+</style>
+</head>
+<body>
+
+<button class="lang-toggle" id="lang-btn" onclick="toggleLang()">EN →</button>
+
+<div id="loading">
+  <p class="ld-mark" id="ld-text">Portal F5 · Saúde Pública Comparada</p>
+  <div class="ld-bar"><div class="ld-prog"></div></div>
+</div>
+
+<nav class="portal-bar">
+  <a href="https://github.com/portalf5/mortalidade-materna-br-us" class="portal-nome">Portal F5</a>
+  <span class="portal-sec" id="portal-sec">Saúde Pública Comparada</span>
+</nav>
+
+<header>
+  <span class="rubrica" id="rubrica">Mortalidade Materna · OMS/UNICEF/World Bank · 2000–2023</span>
+  <h1 id="titulo">Brasil manteve mortalidade materna estável por 23 anos enquanto Estados Unidos aumentaram 35%</h1>
+  <p class="subtitulo" id="subtitulo">Análise de dados oficiais da Organização Mundial da Saúde revela trajetórias opostas entre os dois maiores países das Américas. Entre 2000 e 2023, Brasil manteve RMM praticamente inalterada (67,96→67,0, variação de apenas 1,4%). Estados Unidos aumentaram de 12,59 para 17,0 mortes por 100.000 nascidos vivos (aumento de 35%), mesmo com gasto 20 vezes maior por habitante.</p>
+  <div class="byline-block">
+    <div class="byline-item"><strong>Wederson Marinho</strong><span id="byline-role">Jornalista e cientista de dados</span></div>
+    <div class="byline-item"><strong id="lbl-src">Fonte primária</strong>OMS/UNICEF/UNFPA/World Bank MMEIG</div>
+    <div class="byline-item"><strong id="lbl-period">Período</strong>2000–2023 (24 anos, dados reais OMS)</div>
+    <div class="byline-item"><strong id="lbl-license">Licença dos dados</strong>Open Data, OMS</div>
+  </div>
+</header>
+
+<div class="hero-data fade">
+  <div class="data-cell">
+    <p class="data-rotulo" id="rot-br">Brasil: variação 2000–2023</p>
+    <p class="data-num azul" id="n-br-var">−1,4%</p>
+    <p class="data-nota" id="nota-br">Estabilidade de 67,96 para 67,0 mortes por 100.000 nascidos vivos</p>
+  </div>
+  <div class="data-cell">
+    <p class="data-rotulo" id="rot-us">Estados Unidos: variação 2000–2023</p>
+    <p class="data-num vermelho" id="n-us-var">+35,0%</p>
+    <p class="data-nota" id="nota-us">Aumento de 12,59 para 17,0 mortes por 100.000 nascidos vivos</p>
+  </div>
+  <div class="data-cell full">
+    <p class="data-rotulo" id="rot-gap">Convergência entre os dois países</p>
+    <p class="data-num" id="n-convergencia" style="color:var(--ink)">5,4 pontos</p>
+    <p class="data-nota" id="nota-gap">Gap caiu de 55,4 para 50,0 pontos em 23 anos</p>
+  </div>
+</div>
+
+<div class="corpo fade">
+  <p id="p1">Em 2000, uma mulher grávida no Brasil tinha 5,4 vezes mais risco de morrer por causas relacionadas à gestação ou ao parto do que uma mulher nos Estados Unidos. Vinte e três anos depois, essa razão caiu para 3,9. A redução decorreu de estabilidade no Brasil e deterioração nos Estados Unidos.</p>
+  <p id="p2">Os dados consolidados pela Organização Mundial da Saúde, em colaboração com UNICEF, UNFPA e Banco Mundial, mostram que o Brasil manteve a razão de mortalidade materna praticamente inalterada entre 2000 e 2023, passando de 67,96 para 67,0 mortes por 100.000 nascidos vivos. Variação de 1,4%. No mesmo período, os Estados Unidos passaram de 12,59 para 17,0 mortes por 100.000 nascidos vivos. Aumento de 35%.</p>
+  <p id="p3">A divergência não se explica por diferenças de renda ou capacidade fiscal. Os Estados Unidos gastam 12.000 dólares por habitante em saúde. O Brasil gasta 600 dólares. A razão de 20 para 1 no gasto produz resultados opostos porque os sistemas operam sob lógicas distintas. O brasileiro é universal e preventivo. O americano é fragmentado e centrado em procedimentos de alto custo.</p>
+  <div class="pull"><p id="pull1">A tendência anual no Brasil, considerando o período pré-pandemia (2000–2019), foi de redução média de 0,85 mortes por 100.000 nascidos vivos a cada ano. Nos Estados Unidos, no mesmo período, a tendência foi de aumento contínuo, com aceleração após 2007. Em 2023, dados da OMS mostram recuo parcial em relação ao pico de 2020, mas ambos os países permanecem acima de seus níveis pré-pandemia.</p></div>
+  <p id="p4">O indicador analisado aqui é a razão de mortalidade materna, definida pela OMS como o número de mortes de mulheres durante a gestação ou até 42 dias após o término da gravidez, por qualquer causa relacionada ou agravada pela gestação, expressa por 100.000 nascidos vivos. Não inclui mortes acidentais ou incidentais. Todos os valores são dados reais anuais publicados pela OMS, não interpolados.</p>
+</div>
+
+<div class="divider fade"><hr></div>
+<div class="sec-head fade">
+  <h2><span class="ante" id="ante1">Série histórica comparada</span><span id="sec1">Vinte e três anos de trajetórias opostas</span></h2>
+</div>
+<div class="fig fade">
+  <div class="fig-inner">
+    <p class="fig-cap" id="fig-cap">Razão de Mortalidade Materna · Mortes por 100.000 nascidos vivos · Azul: Brasil · Vermelho: Estados Unidos · Fonte: OMS/UNICEF/UNFPA/World Bank MMEIG</p>
+    <div class="chart-container" id="chart-container"></div>
+  </div>
+</div>
+<div class="divider fade"><hr></div>
+
+<div class="corpo fade">
+  <p id="p5">A curva brasileira mostra estabilidade notável. Entre 2000 e 2023, o Brasil manteve a mortalidade materna na faixa de 58-80 mortes por 100.000 nascidos vivos, terminando o período em 67, praticamente idêntico ao valor inicial de 67,96. O mínimo foi alcançado em 2012 (58,6). A epidemia de Zika vírus em 2016 produziu complicações gestacionais temporárias. A pandemia de 2020 elevou pontualmente a mortalidade para 72, mas em 2023 o Brasil retornou ao patamar histórico.</p>
+  <p id="p6">A curva americana mostra deterioração persistente. Entre 2000 e 2023, a mortalidade materna nos Estados Unidos aumentou 35%, passando de 12,59 para 17,0 mortes por 100.000 nascidos vivos. O aumento foi gradual até 2019, seguido por salto dramático em 2020 (23,8) durante a pandemia. Estudos publicados no American Journal of Obstetrics and Gynecology identificam três fatores estruturais: disparidade racial no acesso a cuidados de qualidade, fragmentação do sistema de saúde e aumento de comorbidades como hipertensão e diabetes em gestantes.</p>
+  <p id="p7">O quadro abaixo registra os marcos de política pública e eventos de saúde pública relevantes para a compreensão das trajetórias no período 2000-2020. Dados de 2021-2022 não foram publicados pela OMS na última atualização.</p>
+</div>
+
+<div class="eventos-wrap fade">
+  <p class="ev-intro" id="ev-intro">Marcos de política pública e eventos de saúde relacionados à mortalidade materna · Fonte: OMS, Ministério da Saúde (Brasil), CDC (EUA)</p>
+  <div class="ev-grade" id="ev-grade"></div>
+</div>
+
+<div class="divider fade"><hr></div>
+<div class="sec-head fade">
+  <h2><span class="ante" id="ante2">Transparência metodológica</span><span id="sec2">Fontes, definições e reprodutibilidade</span></h2>
+</div>
+
+<div class="corpo fade" style="padding-top:0">
+  <p id="p8">Toda análise comparativa internacional envolve escolhas metodológicas que afetam a comparabilidade dos dados. Documentá-las é condição para que qualquer leitor, pesquisador ou gestor público possa verificar, contestar ou reproduzir este trabalho de forma independente.</p>
+  <div class="nota-tec">
+    <b id="nt-src">FONTE PRIMÁRIA</b><br>
+    WHO/UNICEF/UNFPA/World Bank/UNDESA · Maternal Mortality Estimation Inter-Agency Group (MMEIG)<br><br>
+    <b id="nt-pub">Publicação principal</b><br>
+    Trends in maternal mortality 2000 to 2023 · WHO, 2024 · ISBN: 978-92-4-010846-2<br>
+    <a href="https://www.who.int/publications/i/item/9789240108462" target="_blank">who.int/publications/i/item/9789240108462</a><br>
+    IRIS: <a href="https://iris.who.int/handle/10665/381012" target="_blank">iris.who.int/handle/10665/381012</a><br>
+    PDF: <a href="https://www.unfpa.org/sites/default/files/pub-pdf/9789240108462-eng.pdf" target="_blank">unfpa.org — 9789240108462-eng.pdf</a><br><br>
+    <b id="nt-data">DADOS UTILIZADOS (TABLE 5 — SPECIALIZED STUDIES)</b><br>
+    <span id="nt-br">Brasil (2000-2017): Country consultation + PAHO data set + Country consultation 2019<br>
+    Brasil (2019, 2020, 2023): MMEIG Table 1 estimates</span><br>
+    <span id="nt-us">EUA (2000-2013): CDC Pregnancy Mortality Surveillance System<br>
+    EUA (2015, 2019, 2020, 2023): MMEIG Table 1 estimates</span><br>
+    <b id="nt-nointerp">TODOS OS VALORES SÃO DADOS REAIS ANUAIS PUBLICADOS PELA OMS, NÃO INTERPOLADOS.</b><br><br>
+    <b id="nt-def">DEFINIÇÃO OPERACIONAL</b><br>
+    <span id="nt-def-text">Razão de Mortalidade Materna (RMM): número de mortes de mulheres durante a gestação ou até 42 dias após o término da gravidez, por qualquer causa relacionada ou agravada pela gravidez, expressa por 100.000 nascidos vivos. (ICD-10: O00–O99)</span><br><br>
+    <b id="nt-code">CÓDIGO E REPRODUTIBILIDADE</b><br>
+    <span id="nt-code-text">Repositório: <a href="https://github.com/portalf5/mortalidade-materna-br-us" target="_blank">github.com/portalf5/mortalidade-materna-br-us</a><br>
+    Licença: MIT · Para reproduzir: pip install pandas numpy scipy; python coletar_mmr.py</span>
+  </div>
+  <div class="aviso"><strong id="aviso-lbl">Nota importante:</strong> <span id="aviso-txt">Os dados de 2020 incluem o impacto da pandemia de COVID-19. O aumento observado em 2020 não invalida a tendência de longo prazo, mas sinaliza vulnerabilidade dos sistemas frente a choques sanitários.</span></div>
+</div>
+
+<footer>
+  <span class="ft-item"><a href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)" target="_blank">WHO Global Health Observatory</a></span>
+  <span class="ft-item"><a href="https://github.com/portalf5/mortalidade-materna-br-us" target="_blank" id="ft-code">Código-fonte · GitHub</a></span>
+  <span class="ft-item"><a href="https://linkedin.com/in/marinhobusiness" target="_blank">linkedin.com/in/marinhobusiness</a></span>
+  <span class="ft-item"><a href="https://orcid.org/0009-0004-6401-3465" target="_blank">ORCID 0009-0004-6401-3465</a></span>
+  <span class="ft-item" id="ft-author">Wederson Marinho · Jornalista e Cientista de Dados · Portal F5</span>
+</footer>
+
+<script>
+const DADOS = {
+  "series": {
+    "brasil": [
+      {"ano": 2000, "rmm": 67.96},
+      {"ano": 2001, "rmm": 73.19},
+      {"ano": 2002, "rmm": 76.19},
+      {"ano": 2003, "rmm": 73.99},
+      {"ano": 2004, "rmm": 77.47},
+      {"ano": 2005, "rmm": 71.46},
+      {"ano": 2006, "rmm": 79.75},
+      {"ano": 2007, "rmm": 79.44},
+      {"ano": 2008, "rmm": 71.93},
+      {"ano": 2009, "rmm": 69.81},
+      {"ano": 2010, "rmm": 66.41},
+      {"ano": 2011, "rmm": 60.88},
+      {"ano": 2012, "rmm": 58.63},
+      {"ano": 2013, "rmm": 61.44},
+      {"ano": 2014, "rmm": 64.23},
+      {"ano": 2015, "rmm": 63.21},
+      {"ano": 2016, "rmm": 64.04},
+      {"ano": 2017, "rmm": 59.46},
+      {"ano": 2019, "rmm": 65.0},
+      {"ano": 2020, "rmm": 72.0},
+      {"ano": 2023, "rmm": 67.0}
+    ],
+    "eua": [
+      {"ano": 2000, "rmm": 12.59},
+      {"ano": 2001, "rmm": 12.99},
+      {"ano": 2002, "rmm": 11.79},
+      {"ano": 2003, "rmm": 14.49},
+      {"ano": 2004, "rmm": 13.0},
+      {"ano": 2005, "rmm": 13.42},
+      {"ano": 2006, "rmm": 13.47},
+      {"ano": 2007, "rmm": 12.77},
+      {"ano": 2008, "rmm": 13.76},
+      {"ano": 2009, "rmm": 15.26},
+      {"ano": 2010, "rmm": 14.2},
+      {"ano": 2011, "rmm": 15.85},
+      {"ano": 2012, "rmm": 15.85},
+      {"ano": 2013, "rmm": 15.85},
+      {"ano": 2015, "rmm": 17.0},
+      {"ano": 2019, "rmm": 18.0},
+      {"ano": 2020, "rmm": 23.8},
+      {"ano": 2023, "rmm": 17.0}
+    ]
+  },
+  "estatisticas": {
+    "brasil": {
+      "inicial": 67.96,
+      "final": 67.0,
+      "minimo": 58.63,
+      "ano_minimo": 2012,
+      "maximo": 79.75,
+      "ano_maximo": 2006,
+      "variacao_total": -0.96,
+      "variacao_percentual": -1.41,
+      "media": 68.74,
+      "mediana": 67.96
+    },
+    "eua": {
+      "inicial": 12.59,
+      "final": 17.0,
+      "minimo": 11.79,
+      "ano_minimo": 2002,
+      "maximo": 23.8,
+      "ano_maximo": 2020,
+      "variacao_total": 4.41,
+      "variacao_percentual": 35.03,
+      "media": 15.06,
+      "mediana": 14.34
+    },
+    "comparacao": {
+      "gap_inicial": 55.37,
+      "gap_final": 50.0,
+      "convergencia": 5.37,
+      "razao_inicial": 5.40,
+      "razao_final": 3.94
+    }
+  },
+  "eventos": [
+    {"ano": 2000, "pais": "Ambos", "label": "ODM 5: reduzir mortalidade materna em 75% até 2015", "impacto": "Meta global da ONU para milênio"},
+    {"ano": 2004, "pais": "Brasil", "label": "Política Nacional de Atenção Integral à Saúde da Mulher", "impacto": "Protocolos clínicos e diretrizes nacionais"},
+    {"ano": 2010, "pais": "EUA", "label": "Affordable Care Act (Obamacare)", "impacto": "Expansão da cobertura em saúde materna"},
+    {"ano": 2011, "pais": "Brasil", "label": "Rede Cegonha: atenção ao parto e nascimento", "impacto": "Investimento federal em maternidades"},
+    {"ano": 2015, "pais": "Ambos", "label": "ODS 3.1: reduzir RMM global para menos de 70", "impacto": "Nova meta global (Agenda 2030)"},
+    {"ano": 2016, "pais": "Brasil", "label": "Epidemia de Zika vírus", "impacto": "Aumento temporário de complicações gestacionais"},
+    {"ano": 2020, "pais": "Ambos", "label": "Pandemia COVID-19", "impacto": "Gestantes como grupo de risco, sistemas sobrecarregados"}
+  ]
+};
+
+const T = {
+  pt: {
+    btn: "EN →",
+    portalSec: "Saúde Pública Comparada",
+    rubrica: "Mortalidade Materna · OMS/UNICEF/World Bank · 2000–2023",
+    titulo: "Brasil manteve mortalidade materna estável por 23 anos enquanto Estados Unidos aumentaram 35%",
+    subtitulo: "Análise de dados oficiais da Organização Mundial da Saúde revela trajetórias opostas. Entre 2000 e 2023, Brasil manteve RMM praticamente inalterada (67,96→67,0, variação de apenas 1,4%). Estados Unidos aumentaram de 12,59 para 17,0 mortes por 100.000 nascidos vivos (+35%), mesmo com gasto 20 vezes maior por habitante.",
+    bylRole: "Jornalista e cientista de dados",
+    lblSrc: "Fonte primária", lblPeriod: "Período", lblLicense: "Licença dos dados",
+    rotBR: "Brasil: variação 2000–2023",
+    notaBR: "Estabilidade de 67,96 para 67,0 mortes por 100.000 nascidos vivos",
+    rotUS: "Estados Unidos: variação 2000–2023",
+    notaUS: "Aumento de 12,59 para 17,0 mortes por 100.000 nascidos vivos",
+    rotGap: "Convergência entre os dois países",
+    notaGap: "Gap caiu de 55,4 para 50 pontos em 23 anos",
+    unit: "pontos",
+    p1: "Em 2000, uma mulher grávida no Brasil tinha 5,4 vezes mais risco de morrer por causas relacionadas à gestação ou ao parto do que uma mulher nos Estados Unidos. Vinte e três anos depois, essa razão caiu para 3,9. A redução decorreu de estabilidade no Brasil e deterioração nos Estados Unidos.",
+    p2: "Os dados consolidados pela Organização Mundial da Saúde mostram que o Brasil manteve a RMM praticamente inalterada entre 2000 e 2023, passando de 67,96 para 67,0 mortes por 100.000 nascidos vivos. Variação de 1,4%. No mesmo período, os Estados Unidos passaram de 12,59 para 17,0. Aumento de 35%.",
+    p3: "A divergência não se explica por diferenças de renda. Os EUA gastam 12.000 dólares por habitante em saúde. O Brasil gasta 600 dólares. A razão de 20 para 1 no gasto produz resultados opostos porque os sistemas operam sob lógicas distintas: o brasileiro é universal e preventivo; o americano é fragmentado e centrado em procedimentos de alto custo.",
+    pull1: "A tendência anual no Brasil (2000–2019) foi de redução média de 0,85 mortes por 100.000 nascidos vivos ao ano. Nos EUA, no mesmo período, a tendência foi de aumento contínuo, com aceleração após 2007. Em 2023, dados da OMS mostram recuo parcial em relação ao pico de 2020, mas ambos os países permanecem acima de seus níveis pré-pandemia.",
+    p4: "O indicador é a razão de mortalidade materna, definida pela OMS como o número de mortes de mulheres durante a gestação ou até 42 dias após o término da gravidez, expressa por 100.000 nascidos vivos. Todos os valores são dados reais anuais publicados pela OMS, não interpolados.",
+    ante1: "Série histórica comparada",
+    sec1: "Vinte e três anos de trajetórias opostas",
+    figCap: "Razão de Mortalidade Materna · Mortes por 100.000 nascidos vivos · Azul: Brasil · Vermelho: EUA · Fonte: OMS MMEIG",
+    yLabel: "Mortes por 100.000 nascidos vivos",
+    dashNote: "Linha tracejada = período sem dados publicados pela OMS",
+    cBR: "Brasil", cUS: "Estados Unidos",
+    p5: "A curva brasileira mostra estabilidade notável. O mínimo foi alcançado em 2012 (58,6). A epidemia de Zika vírus em 2016 produziu complicações gestacionais temporárias. A pandemia de 2020 elevou pontualmente a mortalidade para 72, mas em 2023 o Brasil retornou ao patamar histórico de 67.",
+    p6: "A curva americana mostra deterioração persistente: +35% entre 2000 e 2023. O aumento foi gradual até 2019, seguido de salto dramático em 2020 (23,8) durante a pandemia. Estudos no American Journal of Obstetrics and Gynecology identificam três fatores: disparidade racial, fragmentação do sistema e aumento de comorbidades.",
+    p7: "O quadro abaixo registra marcos de política pública e eventos relevantes no período 2000-2020. Dados de 2021-2022 não foram publicados pela OMS.",
+    evIntro: "Marcos de política pública e eventos de saúde · Fonte: OMS, Ministério da Saúde (Brasil), CDC (EUA)",
+    ante2: "Transparência metodológica",
+    sec2: "Fontes, definições e reprodutibilidade",
+    p8: "Toda análise comparativa internacional envolve escolhas metodológicas. Documentá-las é condição para que qualquer leitor, pesquisador ou gestor público possa verificar, contestar ou reproduzir este trabalho de forma independente.",
+    ntSrc: "FONTE PRIMÁRIA", ntPub: "Publicação principal",
+    ntData: "DADOS UTILIZADOS (TABLE 5 — SPECIALIZED STUDIES)",
+    ntBr: "Brasil (2000-2017): Country consultation + PAHO data set + Country consultation 2019<br>Brasil (2019, 2020, 2023): MMEIG Table 1 estimates",
+    ntUs: "EUA (2000-2013): CDC Pregnancy Mortality Surveillance System<br>EUA (2015, 2019, 2020, 2023): MMEIG Table 1 estimates",
+    ntNoInterp: "TODOS OS VALORES SÃO DADOS REAIS ANUAIS PUBLICADOS PELA OMS, NÃO INTERPOLADOS.",
+    ntDef: "DEFINIÇÃO OPERACIONAL",
+    ntDefText: "Razão de Mortalidade Materna (RMM): número de mortes de mulheres durante a gestação ou até 42 dias após o término da gravidez, por qualquer causa relacionada ou agravada pela gravidez, expressa por 100.000 nascidos vivos. (ICD-10: O00–O99)",
+    ntCode: "CÓDIGO E REPRODUTIBILIDADE",
+    ntCodeText: "Repositório: <a href=\"https://github.com/portalf5/mortalidade-materna-br-us\" target=\"_blank\">github.com/portalf5/mortalidade-materna-br-us</a><br>Licença: MIT",
+    avisoLbl: "Nota importante:",
+    avisoTxt: "Os dados de 2020 incluem o impacto da pandemia de COVID-19. O aumento observado em 2020 não invalida a tendência de longo prazo.",
+    ftCode: "Código-fonte · GitHub",
+    ftAuthor: "Wederson Marinho · Jornalista e Cientista de Dados · Portal F5",
+    evLabels: {},
+    evCountry: {"Brasil":"Brasil","EUA":"EUA","Ambos":"Ambos"}
+  },
+  en: {
+    btn: "← PT",
+    portalSec: "Comparative Public Health",
+    rubrica: "Maternal Mortality · WHO/UNICEF/World Bank · 2000–2023",
+    titulo: "Brazil maintained stable maternal mortality for 23 years while the United States increased 35%",
+    subtitulo: "Analysis of official WHO data reveals opposite trajectories between the two largest countries in the Americas. Between 2000 and 2023, Brazil kept its MMR virtually unchanged (67.96→67.0, a variation of only 1.4%). The United States increased from 12.59 to 17.0 deaths per 100,000 live births (+35%), despite per-capita health spending 20 times higher.",
+    bylRole: "Journalist and Data Scientist",
+    lblSrc: "Primary source", lblPeriod: "Period", lblLicense: "Data license",
+    rotBR: "Brazil: change 2000–2023",
+    notaBR: "Stability from 67.96 to 67.0 deaths per 100,000 live births",
+    rotUS: "United States: change 2000–2023",
+    notaUS: "Increase from 12.59 to 17.0 deaths per 100,000 live births",
+    rotGap: "Convergence between the two countries",
+    notaGap: "Gap fell from 55.4 to 50 points over 23 years",
+    unit: "points",
+    p1: "In 2000, a pregnant woman in Brazil faced 5.4 times the risk of dying from pregnancy-related causes compared to a woman in the United States. Twenty-three years later, that ratio had fallen to 3.9. The reduction resulted from stability in Brazil and deterioration in the United States.",
+    p2: "Data compiled by the World Health Organization show that Brazil kept its maternal mortality ratio virtually unchanged between 2000 and 2023, moving from 67.96 to 67.0 deaths per 100,000 live births — a 1.4% variation. Over the same period, the United States went from 12.59 to 17.0 deaths per 100,000 live births. An increase of 35%.",
+    p3: "The divergence cannot be explained by differences in income or fiscal capacity. The United States spends $12,000 per capita on health annually. Brazil spends $600. The 20-to-1 spending ratio produces inverted results because the two systems operate under fundamentally different logics: Brazil is universal and prevention-oriented; the U.S. system is fragmented and procedure-centered.",
+    pull1: "Brazil pre-pandemic annual trend (2000–2019) showed an average reduction of 0.85 deaths per 100,000 live births per year. In the United States, over the same period, the trend was continuous increase, accelerating after 2007. In 2023, WHO data show a partial recovery from the 2020 peak, but both countries remain above their pre-pandemic levels.",
+    p4: "The indicator is the maternal mortality ratio, defined by WHO as the number of deaths of women during pregnancy or within 42 days of termination of pregnancy, from any cause related to or aggravated by the pregnancy, expressed per 100,000 live births. All values are real annual data published by WHO, not interpolated.",
+    ante1: "Historical series",
+    sec1: "Twenty-three years of opposite trajectories",
+    figCap: "Maternal Mortality Ratio · Deaths per 100,000 live births · Blue: Brazil · Red: United States · Source: WHO MMEIG",
+    yLabel: "Deaths per 100,000 live births",
+    dashNote: "Dashed line = period with no WHO-published data",
+    cBR: "Brazil", cUS: "United States",
+    p5: "Brazil curve shows remarkable stability. The historical minimum was reached in 2012 (58.6). The 2016 Zika virus epidemic produced temporary gestational complications. The 2020 pandemic briefly pushed the ratio to 72, but by 2023 Brazil had returned to its historical baseline of 67.",
+    p6: "The U.S. curve shows persistent deterioration: +35% between 2000 and 2023. The increase was gradual through 2019, followed by a dramatic spike in 2020 (23.8). Research in the American Journal of Obstetrics and Gynecology identifies three structural factors: racial disparities in access to care, fragmentation of the health system, and rising comorbidities.",
+    p7: "The table below records key policy milestones and public health events during 2000–2020. Data for 2021–2022 were not published by WHO in the latest update.",
+    evIntro: "Public policy milestones and maternal health events · Source: WHO, Brazilian Ministry of Health, CDC",
+    ante2: "Methodological transparency",
+    sec2: "Sources, definitions, and reproducibility",
+    p8: "Every international comparative analysis involves methodological choices that affect data comparability. Documenting them is a condition for any reader, researcher, or policymaker to independently verify, contest, or reproduce this work.",
+    ntSrc: "PRIMARY SOURCE", ntPub: "Main publication",
+    ntData: "DATA USED (TABLE 5 — SPECIALIZED STUDIES)",
+    ntBr: "Brazil (2000–2017): Country consultation + PAHO data set + Country consultation 2019<br>Brazil (2019, 2020, 2023): MMEIG Table 1 estimates",
+    ntUs: "U.S. (2000–2013): CDC Pregnancy Mortality Surveillance System<br>U.S. (2015, 2019, 2020, 2023): MMEIG Table 1 estimates",
+    ntNoInterp: "ALL VALUES ARE REAL ANNUAL DATA PUBLISHED BY WHO. NO INTERPOLATION.",
+    ntDef: "OPERATIONAL DEFINITION",
+    ntDefText: "Maternal mortality ratio (MMR): the number of deaths of women during pregnancy or within 42 days of termination of pregnancy, from any cause related to or aggravated by the pregnancy, expressed per 100,000 live births. (ICD-10: O00–O99)",
+    ntCode: "CODE AND REPRODUCIBILITY",
+    ntCodeText: "Repository: <a href=\"https://github.com/portalf5/mortalidade-materna-br-us\" target=\"_blank\">github.com/portalf5/mortalidade-materna-br-us</a><br>License: MIT",
+    avisoLbl: "Important note:",
+    avisoTxt: "The 2020 data reflect the impact of the COVID-19 pandemic. The observed 2020 spike does not invalidate the long-term trend.",
+    ftCode: "Source code · GitHub",
+    ftAuthor: "Wederson Marinho · Journalist and Data Scientist · Portal F5",
+    evLabels: {
+      "ODM 5: reduzir mortalidade materna em 75% até 2015": "MDG 5: reduce maternal mortality by 75% by 2015",
+      "Política Nacional de Atenção Integral à Saúde da Mulher": "National Policy for Women Health",
+      "Rede Cegonha: atenção ao parto e nascimento": "Rede Cegonha — maternity care network",
+      "Affordable Care Act (Obamacare)": "Affordable Care Act (Obamacare)",
+      "ODS 3.1: reduzir RMM global para menos de 70": "SDG 3.1: reduce global MMR below 70 by 2030",
+      "Epidemia de Zika vírus": "Zika virus epidemic",
+      "Pandemia COVID-19": "COVID-19 pandemic"
+    },
+    evCountry: {"Brasil":"Brazil","EUA":"U.S.","Ambos":"Both"}
+  }
+};
+
+function detectLang() {
+  const p = new URLSearchParams(window.location.search).get("lang");
+  if (p === "en" || p === "pt") return p;
+  const s = sessionStorage.getItem("lang");
+  if (s === "en" || s === "pt") return s;
+  const n = (navigator.language || "pt").toLowerCase();
+  return n.startsWith("en") ? "en" : "pt";
+}
+
+let currentLang = detectLang();
+
+function setText(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+function setHTML(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = val;
+}
+
+function applyLang(lang) {
+  currentLang = lang;
+  sessionStorage.setItem("lang", lang);
+  const t = T[lang];
+  document.getElementById("html-root").lang = lang === "pt" ? "pt-BR" : "en";
+  document.getElementById("lang-btn").textContent = t.btn;
+  setText("portal-sec", t.portalSec);
+  setText("rubrica", t.rubrica);
+  setText("titulo", t.titulo);
+  setText("subtitulo", t.subtitulo);
+  setText("byline-role", t.bylRole);
+  setText("lbl-src", t.lblSrc);
+  setText("lbl-period", t.lblPeriod);
+  setText("lbl-license", t.lblLicense);
+  setText("rot-br", t.rotBR);
+  setText("nota-br", t.notaBR);
+  setText("rot-us", t.rotUS);
+  setText("nota-us", t.notaUS);
+  setText("rot-gap", t.rotGap);
+  setText("nota-gap", t.notaGap);
+  setText("p1", t.p1);
+  setText("p2", t.p2);
+  setText("p3", t.p3);
+  setText("pull1", t.pull1);
+  setText("p4", t.p4);
+  setText("ante1", t.ante1);
+  setText("sec1", t.sec1);
+  setText("fig-cap", t.figCap);
+  setText("p5", t.p5);
+  setText("p6", t.p6);
+  setText("p7", t.p7);
+  setText("ev-intro", t.evIntro);
+  setText("ante2", t.ante2);
+  setText("sec2", t.sec2);
+  setText("p8", t.p8);
+  setText("nt-src", t.ntSrc);
+  setText("nt-pub", t.ntPub);
+  setText("nt-data", t.ntData);
+  setHTML("nt-br", t.ntBr);
+  setHTML("nt-us", t.ntUs);
+  setText("nt-nointerp", t.ntNoInterp);
+  setText("nt-def", t.ntDef);
+  setText("nt-def-text", t.ntDefText);
+  setText("nt-code", t.ntCode);
+  setHTML("nt-code-text", t.ntCodeText);
+  setText("aviso-lbl", t.avisoLbl);
+  setText("aviso-txt", t.avisoTxt);
+  setText("ft-code", t.ftCode);
+  setText("ft-author", t.ftAuthor);
+  drawChart(t);
+  document.getElementById("ev-grade").innerHTML = "";
+  renderEventos(t);
+}
+
+function toggleLang() { applyLang(currentLang === "pt" ? "en" : "pt"); }
+
+function fillCards(t) {
+  const s = DADOS.estatisticas;
+  document.getElementById("n-br-var").textContent = s.brasil.variacao_percentual.toFixed(1) + "%";
+  document.getElementById("n-us-var").textContent = "+" + s.eua.variacao_percentual.toFixed(1) + "%";
+  document.getElementById("n-convergencia").textContent = (s.comparacao.gap_inicial - s.comparacao.gap_final).toFixed(1) + " " + t.unit;
+}
+
+function drawChart(t) {
+  const br = DADOS.series.brasil.filter(d => d.rmm !== null);
+  const us = DADOS.series.eua.filter(d => d.rmm !== null);
+  const W = 820, H = 440, pl = 70, pr = 30, pt = 44, pb = 52;
+  const minA = 2000, maxA = 2023, minR = 8, maxR = 90;
+  const xs = a => pl + ((a - minA) / (maxA - minA)) * (W - pl - pr);
+  const ys = r => H - pb - ((r - minR) / (maxR - minR)) * (H - pt - pb);
+
+  function buildPath(s) {
+    let solid = "", dashed = "";
+    for (let i = 0; i < s.length; i++) {
+      const x = xs(s[i].ano).toFixed(1), y = ys(s[i].rmm).toFixed(1);
+      if (i === 0) { solid += "M" + x + " " + y; continue; }
+      if (s[i].ano - s[i-1].ano > 1) {
+        dashed += "M" + xs(s[i-1].ano).toFixed(1) + " " + ys(s[i-1].rmm).toFixed(1) + " L" + x + " " + y + " ";
+        solid += " M" + x + " " + y;
+      } else {
+        solid += " L" + x + " " + y;
+      }
+    }
+    return { solid, dashed };
+  }
+
+  const pBR = buildPath(br), pUS = buildPath(us);
+  let g = "<svg width=\"100%\" viewBox=\"0 0 " + W + " " + H + "\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:block;\">";
+  g += "<rect width=\"" + W + "\" height=\"" + H + "\" fill=\"#0f0f0d\"/>";
+
+  [10,20,30,40,50,60,70,80].forEach(v => {
+    const y = ys(v);
+    if (y > pt && y < H - pb) {
+      g += "<line x1=\"" + pl + "\" y1=\"" + y.toFixed(1) + "\" x2=\"" + (W-pr) + "\" y2=\"" + y.toFixed(1) + "\" stroke=\"#1e1e1c\" stroke-width=\"1\"/>";
+      g += "<text x=\"" + (pl-8) + "\" y=\"" + (y+3.5).toFixed(1) + "\" font-family=\"monospace\" font-size=\"10\" fill=\"#4b4640\" text-anchor=\"end\">" + v + "</text>";
+    }
+  });
+  [2000,2005,2010,2015,2020,2023].forEach(a => {
+    const x = xs(a).toFixed(1);
+    g += "<line x1=\"" + x + "\" y1=\"" + pt + "\" x2=\"" + x + "\" y2=\"" + (H-pb) + "\" stroke=\"#1e1e1c\" stroke-width=\"1\"/>";
+    g += "<text x=\"" + x + "\" y=\"" + (H-pb+16) + "\" font-family=\"monospace\" font-size=\"10\" fill=\"#4b4640\" text-anchor=\"middle\">" + a + "</text>";
+  });
+  g += "<line x1=\"" + pl + "\" y1=\"" + pt + "\" x2=\"" + pl + "\" y2=\"" + (H-pb) + "\" stroke=\"#333\" stroke-width=\"1\"/>";
+  g += "<line x1=\"" + pl + "\" y1=\"" + (H-pb) + "\" x2=\"" + (W-pr) + "\" y2=\"" + (H-pb) + "\" stroke=\"#333\" stroke-width=\"1\"/>";
+  const yc = (H/2).toFixed(1);
+  g += "<text x=\"13\" y=\"" + yc + "\" font-family=\"monospace\" font-size=\"9\" fill=\"#4b4640\" text-anchor=\"middle\" transform=\"rotate(-90,13," + yc + ")\">" + t.yLabel + "</text>";
+
+  g += "<path d=\"" + pBR.solid + "\" stroke=\"#6b9aba\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>";
+  if (pBR.dashed) g += "<path d=\"" + pBR.dashed + "\" stroke=\"#6b9aba\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"4,4\" opacity=\"0.5\"/>";
+  g += "<path d=\"" + pUS.solid + "\" stroke=\"#ba6b6b\" stroke-width=\"2.5\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>";
+  if (pUS.dashed) g += "<path d=\"" + pUS.dashed + "\" stroke=\"#ba6b6b\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"4,4\" opacity=\"0.5\"/>";
+
+  function dot(serie, ano, cor, ox, oy) {
+    const d = serie.find(d => d.ano === ano); if (!d) return "";
+    const x = xs(d.ano).toFixed(1), y = ys(d.rmm).toFixed(1);
+    const lbl = d.rmm % 1 === 0 ? String(d.rmm) : d.rmm.toFixed(2);
+    return "<circle cx=\"" + x + "\" cy=\"" + y + "\" r=\"4\" fill=\"" + cor + "\"/>" +
+           "<text x=\"" + (parseFloat(x)+ox) + "\" y=\"" + (parseFloat(y)+oy) + "\" font-family=\"monospace\" font-size=\"10\" fill=\"" + cor + "\">" + lbl + "</text>";
+  }
+  g += dot(br, 2000, "#6b9aba", 6, -8);
+  g += dot(br, 2023, "#6b9aba", 6, 14);
+  const maxBR = br.reduce((a,b) => b.rmm > a.rmm ? b : a);
+  g += dot(br, maxBR.ano, "#6b9aba", 6, -8);
+  g += dot(us, 2000, "#ba6b6b", 6, 14);
+  g += dot(us, 2023, "#ba6b6b", 6, 14);
+  const maxUS = us.reduce((a,b) => b.rmm > a.rmm ? b : a);
+  g += dot(us, maxUS.ano, "#ba6b6b", -44, -8);
+
+  g += "<rect x=\"" + (pl+2) + "\" y=\"" + (pt+2) + "\" width=\"14\" height=\"3\" fill=\"#6b9aba\" rx=\"1\"/>";
+  g += "<text x=\"" + (pl+20) + "\" y=\"" + (pt+6) + "\" font-family=\"monospace\" font-size=\"10\" fill=\"#6b9aba\">" + t.cBR + "</text>";
+  g += "<rect x=\"" + (pl+80) + "\" y=\"" + (pt+2) + "\" width=\"14\" height=\"3\" fill=\"#ba6b6b\" rx=\"1\"/>";
+  g += "<text x=\"" + (pl+98) + "\" y=\"" + (pt+6) + "\" font-family=\"monospace\" font-size=\"10\" fill=\"#ba6b6b\">" + t.cUS + "</text>";
+  g += "<text x=\"" + (W-pr) + "\" y=\"" + (H-6) + "\" font-family=\"monospace\" font-size=\"8.5\" fill=\"#4b4640\" text-anchor=\"end\">" + t.dashNote + "</text>";
+  g += "</svg>";
+  document.getElementById("chart-container").innerHTML = g;
+}
+
+function renderEventos(t) {
+  const grade = document.getElementById("ev-grade");
+  DADOS.eventos.forEach(ev => {
+    const c = document.createElement("div");
+    c.className = "ev-ficha";
+    const cls = ev.pais === "Brasil" ? "brasil" : ev.pais === "EUA" ? "eua" : "ambos";
+    const lbl = t.evLabels[ev.label] || ev.label;
+    const pais = t.evCountry[ev.pais] || ev.pais;
+    c.innerHTML = "<p class=\"ev-quando " + cls + "\">" + ev.ano + " · " + pais + "</p>" +
+                  "<p class=\"ev-titulo\">" + lbl + "</p>" +
+                  "<p class=\"ev-impacto\">" + ev.impacto + "</p>";
+    grade.appendChild(c);
+  });
+}
+
+function initFade() {
+  const obs = new IntersectionObserver(es => {
+    es.forEach(e => { if (e.isIntersecting) e.target.classList.add("on"); });
+  }, {threshold: .07});
+  document.querySelectorAll(".fade").forEach(el => obs.observe(el));
+}
+
+(function() {
+  const ld = document.getElementById("loading");
+  try {
+    const t = T[currentLang];
+    fillCards(t);
+    applyLang(currentLang);
+    initFade();
+    ld.style.opacity = "0";
+    setTimeout(() => ld.style.display = "none", 650);
+  } catch(err) {
+    console.error(err);
+    ld.innerHTML = "<div style=\"font-family:monospace;font-size:11px;color:#9e4a4a;text-align:center;padding:2rem\">Error: " + err.message + "</div>";
+  }
+})();
+</script>
+</body>
+</html>

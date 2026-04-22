@@ -1,0 +1,313 @@
+{
+  "series": {
+    "brasil": [
+      {
+        "ano": 2000,
+        "rmm": 67.96
+      },
+      {
+        "ano": 2001,
+        "rmm": 73.19
+      },
+      {
+        "ano": 2002,
+        "rmm": 76.19
+      },
+      {
+        "ano": 2003,
+        "rmm": 73.99
+      },
+      {
+        "ano": 2004,
+        "rmm": 77.47
+      },
+      {
+        "ano": 2005,
+        "rmm": 71.46
+      },
+      {
+        "ano": 2006,
+        "rmm": 79.75
+      },
+      {
+        "ano": 2007,
+        "rmm": 79.44
+      },
+      {
+        "ano": 2008,
+        "rmm": 71.93
+      },
+      {
+        "ano": 2009,
+        "rmm": 69.81
+      },
+      {
+        "ano": 2010,
+        "rmm": 66.41
+      },
+      {
+        "ano": 2011,
+        "rmm": 60.88
+      },
+      {
+        "ano": 2012,
+        "rmm": 58.63
+      },
+      {
+        "ano": 2013,
+        "rmm": 61.44
+      },
+      {
+        "ano": 2014,
+        "rmm": 64.23
+      },
+      {
+        "ano": 2015,
+        "rmm": 63.21
+      },
+      {
+        "ano": 2016,
+        "rmm": 64.04
+      },
+      {
+        "ano": 2017,
+        "rmm": 59.46
+      },
+      {
+        "ano": 2019,
+        "rmm": 65.0
+      },
+      {
+        "ano": 2020,
+        "rmm": 72.0
+      },
+      {
+        "ano": 2023,
+        "rmm": 67.0
+      }
+    ],
+    "eua": [
+      {
+        "ano": 2000,
+        "rmm": 12.59
+      },
+      {
+        "ano": 2001,
+        "rmm": 12.99
+      },
+      {
+        "ano": 2002,
+        "rmm": 11.79
+      },
+      {
+        "ano": 2003,
+        "rmm": 14.49
+      },
+      {
+        "ano": 2004,
+        "rmm": 13.0
+      },
+      {
+        "ano": 2005,
+        "rmm": 13.42
+      },
+      {
+        "ano": 2006,
+        "rmm": 13.47
+      },
+      {
+        "ano": 2007,
+        "rmm": 12.77
+      },
+      {
+        "ano": 2008,
+        "rmm": 13.76
+      },
+      {
+        "ano": 2009,
+        "rmm": 15.26
+      },
+      {
+        "ano": 2010,
+        "rmm": 14.2
+      },
+      {
+        "ano": 2011,
+        "rmm": 15.85
+      },
+      {
+        "ano": 2012,
+        "rmm": 15.85
+      },
+      {
+        "ano": 2013,
+        "rmm": 15.85
+      },
+      {
+        "ano": 2014,
+        "rmm": null
+      },
+      {
+        "ano": 2015,
+        "rmm": 17.0
+      },
+      {
+        "ano": 2016,
+        "rmm": null
+      },
+      {
+        "ano": 2017,
+        "rmm": null
+      },
+      {
+        "ano": 2019,
+        "rmm": 18.0
+      },
+      {
+        "ano": 2020,
+        "rmm": 23.8
+      },
+      {
+        "ano": 2023,
+        "rmm": 17.0
+      }
+    ]
+  },
+  "estatisticas": {
+    "brasil": {
+      "inicial": 67.96,
+      "final": 67.0,
+      "minimo": 58.63,
+      "ano_minimo": 2012,
+      "maximo": 79.75,
+      "ano_maximo": 2006,
+      "variacao_total": -0.9599999999999937,
+      "variacao_percentual": -1.4125956444967502,
+      "media": 68.73761904761905,
+      "mediana": 67.96
+    },
+    "eua": {
+      "inicial": 12.59,
+      "final": 17.0,
+      "minimo": 11.79,
+      "ano_minimo": 2002,
+      "maximo": 23.8,
+      "ano_maximo": 2020,
+      "variacao_total": 4.41,
+      "variacao_percentual": 35.02779984114377,
+      "media": 15.060555555555558,
+      "mediana": 14.344999999999999
+    },
+    "comparacao": {
+      "gap_inicial": 55.36999999999999,
+      "gap_final": 50.0,
+      "convergencia": 5.36999999999999,
+      "razao_inicial": 5.397934868943605,
+      "razao_final": 3.9411764705882355
+    }
+  },
+  "tendencias": {
+    "periodo_completo": {
+      "brasil": {
+        "slope": -0.561527520435967,
+        "r_squared": 0.32660421822297414,
+        "p_value": 0.006802219774945365,
+        "tendencia_anual": -0.561527520435967
+      },
+      "eua": {
+        "slope": null,
+        "r_squared": null,
+        "p_value": null,
+        "tendencia_anual": null
+      }
+    },
+    "pre_pandemia": {
+      "brasil": {
+        "slope": -0.8526184092940124,
+        "r_squared": 0.5159457079620218,
+        "p_value": 0.0005323064823893051,
+        "tendencia_anual": -0.8526184092940124
+      },
+      "eua": {
+        "slope": null,
+        "r_squared": null,
+        "p_value": null,
+        "tendencia_anual": null
+      }
+    }
+  },
+  "eventos": [
+    {
+      "ano": 2000,
+      "pais": "Ambos",
+      "label": "ODM 5: reduzir mortalidade materna em 75% até 2015",
+      "impacto": "Meta global da ONU para milênio"
+    },
+    {
+      "ano": 2004,
+      "pais": "Brasil",
+      "label": "Política Nacional de Atenção Integral à Saúde da Mulher",
+      "impacto": "Protocolos clínicos e diretrizes nacionais"
+    },
+    {
+      "ano": 2010,
+      "pais": "EUA",
+      "label": "Affordable Care Act (Obamacare)",
+      "impacto": "Expansão da cobertura em saúde materna"
+    },
+    {
+      "ano": 2011,
+      "pais": "Brasil",
+      "label": "Rede Cegonha: atenção ao parto e nascimento",
+      "impacto": "Investimento federal em maternidades"
+    },
+    {
+      "ano": 2015,
+      "pais": "Ambos",
+      "label": "ODS 3.1: reduzir RMM global para menos de 70",
+      "impacto": "Nova meta global (Agenda 2030)"
+    },
+    {
+      "ano": 2016,
+      "pais": "Brasil",
+      "label": "Epidemia de Zika vírus",
+      "impacto": "Aumento temporário de complicações gestacionais"
+    },
+    {
+      "ano": 2020,
+      "pais": "Ambos",
+      "label": "Pandemia COVID-19",
+      "impacto": "Gestantes como grupo de risco, sistemas sobrecarregados"
+    }
+  ],
+  "metadata": {
+    "titulo": "Mortalidade Materna: Brasil vs. Estados Unidos (2000-2023)",
+    "fonte_primaria": "WHO/UNICEF/UNFPA/World Bank Maternal Mortality Estimation Inter-Agency Group",
+    "unidade": "Mortes maternas por 100.000 nascidos vivos",
+    "periodo": "2000-2023",
+    "metodologia": "Dados reais anuais da OMS Table 5 (Specialized Studies) + Table 1 (MMEIG estimates)",
+    "definicao": "Morte de mulher durante gestação ou até 42 dias após término, por causa relacionada ou agravada pela gravidez",
+    "atualizacao": "2026-04-22 08:56:41",
+    "fontes_brasil": [
+      "Country consultation: Maternal mortality in Brazil, 1996-2012 (anos 2000-2008)",
+      "PAHO maternal mortality data set, November-December 2018 (anos 2009-2017)",
+      "Country consultation 2019 (ano 2017)",
+      "MMEIG Table 1 estimates (anos 2019, 2020, 2023)"
+    ],
+    "fontes_eua": [
+      "CDC Pregnancy Mortality Surveillance System (anos 2000-2013)",
+      "Pregnancy-Related Mortality in the United States 2011-2013 (anos 2011-2013)",
+      "MMEIG Table 1 estimates (anos 2015, 2019, 2020, 2023)"
+    ],
+    "notas": [
+      "Todos os dados são publicações oficiais da OMS (não interpolados)",
+      "Brasil: 18 anos de dados reais anuais (2000-2017) + 3 pontos MMEIG (2019, 2020, 2023)",
+      "EUA: 14 anos de dados reais anuais (2000-2013) + 4 pontos MMEIG (2015, 2019, 2020, 2023)",
+      "Gap em 2021-2022: dados não publicados pela OMS para estes anos",
+      "Dados de 2020 incluem impacto da pandemia COVID-19",
+      "Dados de 2023 mostram recuo parcial pós-pandemia",
+      "Metodologia MMEIG ajusta sub-registro e classifica causas",
+      "Valores rastreáveis aos PDFs: Brazil_BRA_Profiles_EN.pdf e United_States_of_America_USA_Profiles_EN.pdf"
+    ]
+  }
+}
