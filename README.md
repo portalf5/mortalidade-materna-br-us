@@ -5,9 +5,10 @@ Comparative analysis of official World Health Organization data
 > Brazil maintained stable maternal mortality for 23 years (67.96→67.0, −1.4%) while the United States increased 35% (12.59→17.0) over the same period, despite spending 20 times more per capita on health.
 
 **Live report:** https://portalf5.github.io/mortalidade-materna-br-us  
+**DOI (citable version):** https://doi.org/10.5281/zenodo.19697181  
 **Repository:** https://github.com/portalf5/mortalidade-materna-br-us  
 **ORCID:** [0009-0004-6401-3465](https://orcid.org/0009-0004-6401-3465)  
-**DOI:** 10.5281/zenodo.XXXXXXX (forthcoming)
+
 
 ---
 
@@ -141,7 +142,8 @@ Seven major policy and public health milestones shaped trajectories during 2000�
   journal={Portal F5},
   year={2026},
   url={https://portalf5.github.io/mortalidade-materna-br-us},
-  doi={10.5281/zenodo.XXXXXXX},
+  doi={10.5281/zenodo.19697181},
+  url={https://doi.org/10.5281/zenodo.19697181},
   orcid={0009-0004-6401-3465}
 }
 ```
@@ -150,10 +152,14 @@ Or Harvard style:
 ```
 Marinho, W. (2026). Opposite Trajectories: Maternal Mortality Trends in Brazil 
 and the United States, 2000–2023. Portal F5. 
-https://portalf5.github.io/mortalidade-materna-br-us 
-ORCID: 0009-0004-6401-3465 | DOI: 10.5281/zenodo.XXXXXXX
+https://doi.org/10.5281/zenodo.19697181
+ORCID: 0009-0004-6401-3465
 ```
+## Permanent Identifier
 
+This work is permanently archived and citable via DOI:
+
+https://doi.org/10.5281/zenodo.19697181
 ---
 
 ## License
